@@ -7,10 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-    rel="stylesheet">
-
-    <title>Main paje</title>
-
+    rel="stylesheet">    
+    <title>Main page</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -21,7 +19,7 @@
             <a class="logo" href="./index.html">Web<span class="header-logo">Studio</span></a>
             <ul class="links list">
                 <li>
-                    <a class="link" href="./index.html">Студия</a>
+                    <a class="link current" href="./index.html">Студия</a>
                 </li>
                 <li>
                     <a class="link" href="./portfolio.html">Портфолио</a>
@@ -45,40 +43,40 @@
     <main>    
 
             <!-- Section with button -->
-        <section>
-            <h1>
+        <section class="booking-section">
+            <h1 class="tagline">
                 Эффективные решения для вашего бизнеса
             </h1>
-            <button type="button">Заказать услугу</button>
+            <button class="booking-button" type="button"><span>Заказать услугу</span></button>
         </section>  
 
-              <!-- Section about our advantages -->
-        <section>
-            <h2>Наши особенности</h2>
-                <ul>
+              <!-- Section about our features -->
+        <section class="section-features">
+            <h2 hidden>Наши особенности</h2>
+                <ul class="list">
                     <li>
-                        <h3>Внимание к деталям</h3>
-                        <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                        <h3 class="heading-features title">Внимание к деталям</h3>
+                        <p class="paragraph-features">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li>
                     <li>
-                        <h3>Пунктуальность</h3>
-                        <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                        <h3 class="heading-features title">Пунктуальность</h3>
+                        <p class="paragraph-features">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                     </li>
                     <li>
-                        <h3>Планирование</h3>
-                        <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                        <h3 class="heading-features title">Планирование</h3>
+                        <p class="paragraph-features">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                     </li>
                     <li>
-                        <h3>Современные технологии</h3>
-                        <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                        <h3 class="heading-features title">Современные технологии</h3>
+                        <p class="paragraph-features">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
                 </ul>
         </section>
 
-         <!-- Section about our servises -->
-        <section>
-            <h2>Чем мы занимаемся</h2>
-            <ul>
+         <!-- Section about our services -->
+        <section class="section-services">
+            <h2 class="heading-services title">Чем мы занимаемся</h2>
+            <ul class="list">
                 <li>
                     <img src="./images/box_1.jpg" alt="Разработка сайтов" width="370">
                 </li>
@@ -92,28 +90,28 @@
         </section>
         
         <!-- Section about our teem -->
-        <section>
-            <h2>Наша команда</h2>
-            <ul>
+        <section class="section-teem">
+            <h2 class="heading-teem title">Наша команда</h2>
+            <ul class="list">
                 <li>
                     <img src="./images/Product_Designer.jpg" alt="Игорь Демьяненко" width="270">
-                    <h3>Игорь Демьяненко</h3> 
-                    <p lang="en">Product Designer</p>                   
+                    <h3 class="name title">Игорь Демьяненко</h3> 
+                    <p class="position" lang="en">Product Designer</p>                   
                 </li>
                 <li>
                     <img src="./images/Frontend_Developer.jpg" alt="Ольга Репина" width="270">
-                    <h3>Ольга Репина</h3>
-                    <p lang="en">Frontend Developer</p>                
+                    <h3 class="name title">Ольга Репина</h3>
+                    <p class="position" lang="en">Frontend Developer</p>                
                 </li>
                 <li>
                     <img src="./images/Marketing.jpg" alt="Николай Тарасов" width="270">
-                    <h3>Николай Тарасов</h3>
-                    <p lang="en">Marketing</p>                  
+                    <h3 class="name title">Николай Тарасов</h3>
+                    <p class="position" lang="en">Marketing</p>                  
                 </li>
                 <li>
                     <img src="./images/UI_Designer.jpg" alt="Михаил Ермаков" width="270">
-                    <h3>Михаил Ермаков</h3>
-                    <p lang="en">UI Designer</p> 
+                    <h3 class="name title">Михаил Ермаков</h3>
+                    <p class="position" lang="en">UI Designer</p> 
                 </li>
             </ul>
         </section>   

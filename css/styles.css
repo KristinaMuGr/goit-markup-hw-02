@@ -1,9 +1,10 @@
 :root {
     --main-title-color: #212121;
     --accent-color: #2196F3;
-    --background-color: #E5E5E5;
-    --brand-background-color: #2F303A;    
-}
+    --background-color: #fff;
+    --second-background-color: #F5F4FA;
+    --brand-background-color: #2F303A; 
+   }
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -13,11 +14,7 @@ body {
 /* Header styles */
 
 .header {
-    background-color: #fff;
-}
-
-.nav {
-
+    background-color: var(--background-color);
 }
 
 /* Logo of the site */
@@ -41,13 +38,10 @@ body {
 
 /* Logo in footer */
 .footer-logo { 
-    color: #fff;
+    color: var(--background-color);
 }
 
 /* Links in header to pages of the site, mail and phone */
-.links {
-    
-}
 
 .list {
     list-style: none;
@@ -67,6 +61,10 @@ body {
     color: var(--main-title-color);
 }
 
+.current {
+    color: var(--accent-color);
+}
+
 .link:hover, .link:focus {
     color:  var(--accent-color);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -79,6 +77,107 @@ body {
 .contact-link:hover, .contact-link:focus {
     color: var(--accent-color);
 }
+
+/* Main content */
+
+/* Color of titles */
+.title {
+    color: var(--main-title-color);
+}
+
+/* Boking secion */
+.booking-section {
+    background-color: var(--brand-background-color);
+}
+
+.tagline {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;    
+    color: var(--background-color);
+}
+
+.booking-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;        
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;    
+    color: #FFFFFF;
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Section features and services */
+.section-features, .section-services {
+    background-color: var(--background-color);
+}
+
+.heading-features {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;    
+}
+
+.paragraph-features {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.paragraph-features:hover, .paragraph-features:focus {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Heading sesvices and teem */
+.heading-services, .heading-teem {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* Section about our teem */
+.section-teem {
+    background-color: var(--second-background-color);
+}
+
+.heading-teem {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.position {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* Portfolio page */
+
+
 
 /* Footer */
 
@@ -97,7 +196,7 @@ body {
 }
 
 .address {
-    color: #fff;
+    color: var(--background-color);
 }
 
 .footer-contact {
