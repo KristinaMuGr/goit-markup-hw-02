@@ -17,7 +17,7 @@ body {
     background-color: var(--background-color);
 }
 
-/* Logo of the site */
+/* Logo in header*/
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -26,10 +26,6 @@ body {
     letter-spacing: 0.03em;
     color: var(--accent-color);
     text-decoration: none;
-}
-
-.logo:hover, .logo:focus {
-    text-decoration: underline;
 }
     
 .header-logo {
@@ -41,15 +37,13 @@ body {
     color: var(--background-color);
 }
 
-/* Links in header to pages of the site, mail and phone */
+/* Links in header */
 
 .list {
     list-style: none;
 }
 
 .link, .contact-link {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -85,7 +79,7 @@ body {
     color: var(--main-title-color);
 }
 
-/* Boking secion */
+/* Booking secion */
 .booking-section {
     background-color: var(--brand-background-color);
 }
@@ -103,12 +97,10 @@ body {
 .booking-button {
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.88;        
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;    
-    color: #FFFFFF;
+    line-height: 1.88;  
+    letter-spacing: 0.06em;
+    font-family: inherit;    
+    color: var(--background-color);
     background: #188CE8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -154,10 +146,10 @@ body {
 
 .heading-teem {
     font-weight: 700;
-        font-size: 36px;
-        line-height: 1.17;
-        text-align: center;
-        letter-spacing: 0.03em;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .name {
@@ -168,8 +160,7 @@ body {
     letter-spacing: 0.03em;
 }
 
-.position {
-    font-size: 16px;
+.position {    
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
@@ -182,6 +173,7 @@ body {
     line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
+    font-family: inherit;
     background-color: var(--second-background-color);
 }
 
@@ -193,13 +185,12 @@ body {
 .heading-project {
     font-weight: 700;
     font-size: 18px;
-    line-height: 2x;
+    line-height: 2;
     letter-spacing: 0.06em;
 }
 
-.category {
-    font-size: 16px;
-    line-height: 30px;
+.category {    
+    line-height: 1.88;
     letter-spacing: 0.03em;
 }
 
@@ -212,7 +203,6 @@ body {
 
 /* Links to contacts in a footer */
 .address, .footer-contact {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-size: 14px;
     line-height: 1.71; 
